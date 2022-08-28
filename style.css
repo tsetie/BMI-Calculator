@@ -1,0 +1,111 @@
+* {
+  background-color: pink;
+  font-family: Alumni Sans Pinstripe;
+}
+.heart {
+  font-size: 4vw;
+  margin-right: 9vw;
+  margin-left: 9vw;
+}
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 6vw;
+  display: inline-block;
+}
+.titleContainer {
+  text-align: center;
+  white-space: nowrap;
+}
+
+.info {
+  display: inline-block;
+  color: white;
+  font-size: 3vw;
+  font-weight: bold;
+}
+.infoContainer {
+  border: solid;
+  border-color: white;
+  border-width: thin;
+  width: 50vw;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+.textBox {
+  height: 3vw;
+  width: 6vw;
+  margin-left: 1vw;
+  border: solid;
+  border-color: white;
+  font-size: 2vw;
+  font-weight: bold;
+}
+.calculateButton {
+  background-color: white;
+  border-color: white;
+  color: pink;
+  font-weight: bolder;
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+  height: 5vw;
+  width: 15vw;
+  font-size: 2.5vw;
+  border-radius: 2.5vw;
+  cursor: pointer;
+}
+
+.message {
+  font-size: 4vw;
+  color: white;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+span.result {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.resultContainer {
+  text-align: center;
+}
+
+.bmiChart {
+  border-collapse: collapse;
+  font-size: 3.5vw;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50vw;
+  margin-top: 2vw;
+}
+th {
+  color: pink;
+  background-color: white;
+}
+td {
+  color: white;
+  text-align: center;
+}
+td,
+th {
+  border: 0.2vw solid rgb(231, 229, 229);
+  padding: 1vw;
+}
+
+.afterCalculateContainer {
+  border: solid;
+  border-color: white;
+  width: 90vw;
+  margin-right: auto;
+  margin-left: auto;
+  border-width: 0.1vw;
+  text-align: center;
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+  display: none;
+}
+
+.removeMargin {
+  margin-bottom: 0;
+}

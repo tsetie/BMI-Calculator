@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BMI Calculator &#9829;</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="titleContainer">
+      <h1 class="heart">&#10084;</h1>
+      <h1>BMI Calculator</h1>
+      <h1 class="heart">&#10084;</h1>
+    </div>
+    <div class="infoContainer" id="infoBox">
+      <div>
+        <p class="info removeMargin">Enter height</p>
+        <input type="text" class="textBox" id="ft" placeholder="feet" />
+        <input type="text" class="textBox" id="inches" placeholder="inches" />
+      </div>
+      <div>
+        <p class="info removeMargin">Enter weight</p>
+        <input type="text" class="textBox" id="lbs" placeholder="lbs" />
+      </div>
+      <button class="calculateButton" id="calculateBtn">CALCULATE</button>
+    </div>
+    <div class="afterCalculateContainer" id="resultBox">
+      <div class="resultContainer">
+        <p class="message">
+          Your BMI is <span class="result" id="bmi">18</span>.
+        </p>
+        <p class="message">
+          Your weight status is
+          <span class="result" id="status">underweight.</span>
+        </p>
+      </div>
+      <button class="calculateButton removeMargin" id="recalculateBtn">
+        Recalculate
+      </button>
+      <table class="bmiChart">
+        <tr>
+          <th>BMI</th>
+          <th>Weight Status</th>
+        </tr>
+        <tr>
+          <td>Below 18.5</td>
+          <td>Underweight</td>
+        </tr>
+        <tr>
+          <td>18.5-24.9</td>
+          <td>Healthy weight</td>
+        </tr>
+        <tr>
+          <td>25.0-29.9</td>
+          <td>Overweight</td>
+        </tr>
+        <tr>
+          <td>30.0 & above</td>
+          <td>Obese</td>
+        </tr>
+      </table>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
