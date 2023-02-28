@@ -1,5 +1,5 @@
 * {
-  background-color: pink;
+  background-color: rgb(221, 221, 221);
   font-family: Alumni Sans Pinstripe;
 }
 .heart {
@@ -9,7 +9,7 @@
 }
 h1 {
   text-align: center;
-  color: white;
+  color: rgb(184, 173, 165);
   font-size: 6vw;
   display: inline-block;
 }
@@ -20,7 +20,7 @@ h1 {
 
 .info {
   display: inline-block;
-  color: white;
+  color: rgb(95, 92, 88);
   font-size: 3vw;
   font-weight: bold;
 }
@@ -38,14 +38,14 @@ h1 {
   width: 6vw;
   margin-left: 1vw;
   border: solid;
-  border-color: white;
+  border-color: rgb(176, 167, 154);
   font-size: 2vw;
   font-weight: bold;
 }
 .calculateButton {
-  background-color: white;
+  background-color: rgba(200, 188, 176, 0.412);
   border-color: white;
-  color: pink;
+  color: rgb(68, 65, 62);
   font-weight: bolder;
   margin-top: 3vw;
   margin-bottom: 3vw;
@@ -54,11 +54,17 @@ h1 {
   font-size: 2.5vw;
   border-radius: 2.5vw;
   cursor: pointer;
+  border-style: none;
 }
+.calculateButton:hover{
+  background-color: rgba(183, 177, 169, 0.351);
+  color:white;
+}
+
 
 .message {
   font-size: 4vw;
-  color: white;
+  color: rgb(149, 146, 142);
   margin-bottom: 0;
   margin-top: 0;
 }
@@ -80,12 +86,13 @@ span.result {
   margin-top: 2vw;
 }
 th {
-  color: pink;
-  background-color: white;
+  color: rgb(99, 97, 95);
+  background-color: rgba(255, 255, 255, 0.599);
 }
 td {
-  color: white;
+  color: rgb(128, 125, 116);
   text-align: center;
+  background-color: rgba(148, 134, 119, 0.157);
 }
 td,
 th {
